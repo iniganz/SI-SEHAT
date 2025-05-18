@@ -19,8 +19,19 @@
 
 
         <x-footer></x-footer>
-        @stack('scripts') <!-- For adding custom scripts in child views -->
 
     </main>
+    @stack('scripts') <!-- For adding custom scripts in child views -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131505823-4"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-131505823-4');
+    </script>
 </body>
 </html>

@@ -1,8 +1,8 @@
-<nav class="bg-gray-900 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 ">
+<nav class="bg-green-900 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 ">
     <div class="flex flex-wrap items-center justify-between py-6">
         <div class="w-1/2 md:w-auto">
             <a href="index.html" class="text-white font-bold text-2xl">
-            DentalPro
+            SI SEHAT
             </a>
         </div>
 
@@ -16,7 +16,7 @@
 
         <div class="hidden md:block w-full md:w-auto" id="menu">
             <nav
-            class="w-full bg-white md:bg-transparent rounded shadow-lg px-6 py-4 mt-4 text-center md:p-0 md:mt-0 md:shadow-none">
+            class="w-full bg-gree-900 md:bg-transparent rounded shadow-lg px-6 py-4 mt-4 text-center md:p-0 md:mt-0 md:shadow-none">
             <ul class="md:flex items-center">
                 <li><a class="py-2 inline-block md:text-white md:hidden lg:block font-semibold" href="#">About Us</a></li>
                 <li class="md:ml-4"><a class="py-2 inline-block md:text-white md:px-2 font-semibold"
