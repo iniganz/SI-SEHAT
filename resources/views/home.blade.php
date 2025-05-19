@@ -2,26 +2,32 @@
 @section('title', 'SI SEHAT')
 @section('content')
 
-    <!-- start hero -->
-<div class="bg-green-900">
-    <section class="cover relative px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 overflow-hidden pb-48 flex items-center min-h-screen justify-center">
-        <div class="w-full flex flex-col items-center justify-center relative mb-20">
-            <div class="text-center z-10 ">
-                <h1 class="text-white text-4xl md:text-5xl xl:text-6xl font-bold leading-tight">
-                    A better life starts with a beautiful smile.
-                </h1>
-                <p class="text-blue-100 text-xl md:text-2xl leading-snug mt-4">
-                    Welcome to the Dentist Office of Dr. Thomas Dooley, where trust and comfort are priorities.
-                </p>
-                <a href="#" class="px-8 py-4 bg-white text-green-900 rounded inline-block mt-8 font-semibold">
-                    Book Appointment
-                </a>
-            </div>
-        </div>
-        <img src="img/Dashboard Preview 1.png" alt="" class="object-cover overflow-hidden w-1/2 h-1/2 absolute left-1/2 bottom-0 transform -translate-x-1/2 shadow-lg rounded-t-3xl" style="background: transparent;">
-    </section>
+<div class="relative w-full max-w-7xl mx-auto overflow-hidden rounded-xl border border-black mt-10">
+  <div id="carousel" class="flex transition-transform duration-700 ease-in-out">
+    <!-- Clone last (slide 3) -->
+    <img src="img/slide5.png" class="w-full flex-shrink-0" />
+
+    <!-- Slides -->
+    <img src="img/slide1.png" class="w-full flex-shrink-0" />
+    <img src="img/slide2.png" class="w-full flex-shrink-0" />
+    <img src="img/slide3.png" class="w-full flex-shrink-0" />
+    <img src="img/slide4.png" class="w-full flex-shrink-0" />
+    <img src="img/slide5.png" class="w-full flex-shrink-0" />
+
+    <!-- Clone first (slide 1) -->
+    <img src="img/slide1.png" class="w-full flex-shrink-0" />
+  </div>
+
+  <!-- Dots -->
+  <div class="absolute bottom-5 w-full flex justify-center gap-3 z-10">
+    <button class="dot w-4 h-4 rounded-full border-2 border-black bg-white opacity-80" data-index="0"></button>
+    <button class="dot w-4 h-4 rounded-full border-2 border-black bg-white opacity-80" data-index="1"></button>
+    <button class="dot w-4 h-4 rounded-full border-2 border-black bg-white opacity-80" data-index="2"></button>
+    <button class="dot w-4 h-4 rounded-full border-2 border-black bg-white opacity-80" data-index="3"></button>
+    <button class="dot w-4 h-4 rounded-full border-2 border-black bg-white opacity-80" data-index="4"></button>
+  </div>
 </div>
-<!-- end hero -->
+
 
     <!-- start about -->
     <section class="relative px-4 py-16 sm:px-8 lg:px-16 lg:py-32 xl:px-40 2xl:px-64">
