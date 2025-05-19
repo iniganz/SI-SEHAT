@@ -20,11 +20,11 @@
 
   <!-- Dots -->
   <div class="absolute bottom-5 w-full flex justify-center gap-3 z-10">
-    <button class="dot w-4 h-4 rounded-full border-2 bg-white opacity-80 transition-colors duration-300" data-index="0"></button>
-    <button class="dot w-4 h-4 rounded-full border-2 bg-white opacity-80 transition-colors duration-300" data-index="1"></button>
-    <button class="dot w-4 h-4 rounded-full border-2 bg-white opacity-80 transition-colors duration-300" data-index="2"></button>
-    <button class="dot w-4 h-4 rounded-full border-2 bg-white opacity-80 transition-colors duration-300" data-index="3"></button>
-    <button class="dot w-4 h-4 rounded-full border-2 bg-white opacity-80 transition-colors duration-300" data-index="4"></button>
+    <button class="dot w-4 h-4 rounded-full border-2 opacity-80" data-index="0"></button>
+    <button class="dot w-4 h-4 rounded-full border-2 opacity-80" data-index="1"></button>
+    <button class="dot w-4 h-4 rounded-full border-2 opacity-80" data-index="2"></button>
+    <button class="dot w-4 h-4 rounded-full border-2 opacity-80" data-index="3"></button>
+    <button class="dot w-4 h-4 rounded-full border-2 opacity-80" data-index="4"></button>
   </div>
 </div>
 
