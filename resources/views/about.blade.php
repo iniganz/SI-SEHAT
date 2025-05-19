@@ -1,5 +1,5 @@
 @extends('layouts.main')
-@section('title', 'Artikel Kesehatan - SI SEHAT')
+@section('title', 'Tentang Kami - SI SEHAT')
 @section('content')
 
 @endsection
