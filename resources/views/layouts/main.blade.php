@@ -53,8 +53,8 @@
             carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
 
             // Update dots
-            dots.forEach(dot => dot.classList.remove('bg-black'));
-            dots[(currentIndex - 1 + totalSlides) % totalSlides].classList.add('bg-black');
+            dots.forEach(dot => dot.classList.remove('bg-green-900'));
+            dots[(currentIndex - 1 + totalSlides) % totalSlides].classList.add('bg-green-900');
         }
 
         function goToNextSlide() {

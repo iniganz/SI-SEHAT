@@ -2,7 +2,7 @@
 @section('title', 'SI SEHAT')
 @section('content')
 
-<div class="relative w-full max-w-7xl mx-auto overflow-hidden rounded-xl border border-black mt-10">
+<div class="relative w-full max-w-8xl mx-auto overflow-hidden  border ">
   <div id="carousel" class="flex transition-transform duration-700 ease-in-out">
     <!-- Clone last (slide 3) -->
     <img src="img/slide5.png" class="w-full flex-shrink-0" />
@@ -20,11 +20,11 @@
 
   <!-- Dots -->
   <div class="absolute bottom-5 w-full flex justify-center gap-3 z-10">
-    <button class="dot w-4 h-4 rounded-full border-2 border-black bg-white opacity-80" data-index="0"></button>
-    <button class="dot w-4 h-4 rounded-full border-2 border-black bg-white opacity-80" data-index="1"></button>
-    <button class="dot w-4 h-4 rounded-full border-2 border-black bg-white opacity-80" data-index="2"></button>
-    <button class="dot w-4 h-4 rounded-full border-2 border-black bg-white opacity-80" data-index="3"></button>
-    <button class="dot w-4 h-4 rounded-full border-2 border-black bg-white opacity-80" data-index="4"></button>
+    <button class="dot w-4 h-4 rounded-full border-2 bg-white opacity-80 transition-colors duration-300" data-index="0"></button>
+    <button class="dot w-4 h-4 rounded-full border-2 bg-white opacity-80 transition-colors duration-300" data-index="1"></button>
+    <button class="dot w-4 h-4 rounded-full border-2 bg-white opacity-80 transition-colors duration-300" data-index="2"></button>
+    <button class="dot w-4 h-4 rounded-full border-2 bg-white opacity-80 transition-colors duration-300" data-index="3"></button>
+    <button class="dot w-4 h-4 rounded-full border-2 bg-white opacity-80 transition-colors duration-300" data-index="4"></button>
   </div>
 </div>
 
