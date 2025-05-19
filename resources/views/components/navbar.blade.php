@@ -1,10 +1,9 @@
 <nav class="bg-green-900 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 ">
     <div class="flex flex-wrap items-center justify-between py-6">
-        <div class="w-1/2 md:w-auto">
-            <a href="index.html" class="text-white font-bold text-2xl">
-            SI SEHAT
-            </a>
-        </div>
+    <div class="w-1/2 md:w-auto flex items-center space-x-3">
+        <img src="img/si sehat-1.svg" alt="" class="h-10 w-auto">
+        <a href="index.html" class="text-white font-bold text-2xl">SI SEHAT</a>
+    </div>
 
     <label for="menu-toggle" class="pointer-cursor md:hidden block"><svg class="fill-current text-white"
         xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
