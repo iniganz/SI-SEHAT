@@ -2,7 +2,7 @@
 @section('title', 'SI SEHAT')
 @section('content')
 
-<div class="relative w-full max-w-8xl mx-auto overflow-hidden  border ">
+<div class="relative w-full max-w-8xl mx-auto overflow-hidden   ">
   <div id="carousel" class="flex transition-transform duration-700 ease-in-out">
     <!-- Clone last (slide 3) -->
     <img src="img/slide5.png" class="w-full flex-shrink-0" />
